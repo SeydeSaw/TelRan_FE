@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+   
+  
+    
+    .header-wrapper {
+            width: 80%;
+        }   
+    .header-icon:not(:last-child) { /* выбор всех элементов, кроме последнего*/
+            margin-right: 20px;
+        }
+
+       
+    .intro-nav {
+        flex-wrap: wrap;
+        }
+    .nav-link {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        
+    }    
+    .nav-lin.btn {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro-img {
+
+        display: none;
+    }
+    .intro-text {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+}

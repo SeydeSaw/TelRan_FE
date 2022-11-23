@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+
+.header-wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon:not(:last-child) { /* выбор всех элементов, кроме последнего*/
+    margin-right: 55px;
+
+}
+/* header end */
+
+
+/* intro */
+
+.intro {
+    background-color: #4FBFA5;
+    padding: 25px 0 60px;
+}
+
+.intro-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    
+}
+.nav-link:last-child {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 50px;
+}
+.intro-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.intro-img {
+    width: 60%;
+}
+.intro-text {
+    width: 30%;
+}
+.intro-title {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+}
+.intro-descr {
+    font-style: italic;
+    font-size: 14px;
+    margin: 40px 0;
+}
+.intro-btn {
+    padding: 15px 25px;
+    background-color: #00868A;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: white;
+    font-style: italic;
+}
+
+.actual-wrapper {
+   padding: 146px 312px 129px;
+   align-items: center;
+}
+
+.actual-title {
+    font-style: italic;
+    font-size: 48px;
+    color: #00868A;
+    text-align: center;
+
+}
+
+.actual-imgs {
+    width: 300px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+   
+}
+.actual-img:not(:last-child) {
+    margin-right: 24px;
+}
+
+
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.footer-icon:not(:last-child) { /* выбор всех элементов, кроме последнего*/
+    margin-right: 55px;
+
+}
+
+
+
+
+
+
+/* intro end */
+
+
+
+
+
+
+
+
+/* 
+.actual-wrapper {
+    margin: 150px auto 130px;
+}
+
+.actual-title {
+    width: calc(50% - 300px) ;
+    margin-bottom: 60px;
+    display: flex;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    color: #00868A;
+}
+ */

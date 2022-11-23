@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    position: fixed;
+
+}
+.nav-link {
+font-size: 24px;v
+text-decoration: none;
+
+}
+section {
+    height: 100vh;
+
+}
+
+.item-1 {
+    background-color: brown;
+}
+.item-2 {
+    background-color: seagreen;
+}
+.item-3 {
+    background-color: lightsalmon;
+}
+.item-4 {
+    background-color: blue;
+}

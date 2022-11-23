@@ -1,0 +1,8 @@
+@media (max-width: 480px) {
+    h1 {
+        color: red;
+    }
+    div {
+  width: calc(100% - 20px);
+    }
+}

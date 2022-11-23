@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    text-align: center;
+    background-color: rgb(226, 113, 69);
+    width: 50%;
+    margin: auto;
+}
+p {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+article {
+    background-color: rgb(207, 174, 133);
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}

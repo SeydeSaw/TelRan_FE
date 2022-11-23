@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    background: #1ABC9C;
+    padding: 15px 0;
+}
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.social-icon {
+    margin-right: 20px;
+}
+
+
+
+.about_us {
+    display: flex;
+    background-color: #FFFFFF;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_about {
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    color: #000000;
+    align-items: flex-end;
+}
+.info_text {
+    margin: 70px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000; 
+    justify-content: center;
+
+}
+
+.our_projects {
+    background: #DCFFEB;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    color: #000000;
+    padding-top: 124px;
+    padding-left: 64px;
+    padding-bottom: 54px;
+}
+
+.our_project_ {
+    padding-bottom: 126px ;
+    display: flex;
+    justify-content: center;
+    background: #DCFFEB;
+    
+}
+
+
+.our_project_1 {
+    background-image: url(./images/gazprom.png);
+    width: 436.08px;
+    height: 376.65px;
+    margin: 34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.our_project_2 {
+    background-image: url(./images/gazprom.png);
+    width: 436.08px;
+    height: 376.65px;
+    margin: 34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.our_project_3 {
+    background-image: url(./images/gazprom.png);
+    width: 436.08px;
+    height: 376.65px;
+    margin: 34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.maus {
+    padding-top: 73px;
+    padding-left: 203px;
+}
+
+.our_project_zagolovok {
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    font-size: 24px;
+    padding-top: 117px;
+    padding-left: 36px;
+   
+}
+
+.our_project_texte {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    padding-left: 36px;
+   
+} 
+
+
+
+/* 
+.our_projects {
+    font-size: 35px;
+    color: #000000;
+  
+
+}
+.our_project {
+    display: flex;
+    background-color: #DCFFEB;
+    height: 376.65px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.our_project_zagolovok {
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    font-size: 24px;
+}
+.our_project_texte {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}  
+*/

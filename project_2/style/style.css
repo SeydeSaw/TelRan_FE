@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {font-family: 'Lobster', cursive;
+}
+header {
+    background-color: rgb(248, 237, 174);
+    padding-top: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(180, 210, 180);
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+p {
+    font-size: 28px;
+    font-family: 'Caveat', cursive;
+    color: rgb(3, 97, 3);
+    text-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(50% - 20px);
+    height: 200px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: 1s;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+
+}
+div:hover {
+    transform: scale(1.05);}
+
+.item-1 {
+background-image: url(../images2/bern.png);
+}
+.item-2 {
+background-image: url(../images2/glarus.png);
+}
+.item-3 {
+background-image: url(../images2/luzern.png);
+}
+.item-4 {
+background-image: url(../images2/nidwalden.png);
+}
+.item-5 {
+background-image: url(../images2/obwalden.png);
+}
+.item-6 {
+background-image: url(../images2/schwyz.png);
+}
+.item-7 {
+background-image: url(../images2/uri.png);
+}
+.item-8 {
+background-image: url(../images2/zurich.png);
+}
+
